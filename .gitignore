@@ -1,0 +1,11 @@
+# Large data files (over GitHub's 100MB limit)
+studentVle.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
