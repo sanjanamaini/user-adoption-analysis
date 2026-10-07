@@ -1,0 +1,7 @@
+step,auc
+"A. v1 as published: features per student, random row split",0.8958063452317949
+B. features per enrolment (no mixing across modules),0.9316708991908835
+"C. B, split by student",0.9317795890258903
+"D. B, train on 2013B-2014B, test on 2014J",0.9422487501443264
+"E. honest: day-28 features, students enrolled on day 28, test on 2014J (v1's Random Forest)",0.6624215978829127
+"F. as E, gradient-boosted trees",0.6694487476608699

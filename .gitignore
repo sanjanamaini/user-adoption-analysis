@@ -1,5 +1,7 @@
-# Large data files (over GitHub's 100MB limit)
+# Large data files (over GitHub's 100MB limit); scripts/get_data.py fetches it
 studentVle.csv
+# Cache rebuilt from studentVle.csv on first run
+data/daily_clicks.parquet
 
 # Python
 __pycache__/
