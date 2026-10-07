@@ -689,7 +689,7 @@ print({k: round(v, 3) for k, v in R.items() if k.startswith("day28")})
 #   123 days). There is time to act.
 # - **Calibration.** Predicted and observed rates stay within 6.8 points across the ten risk deciles, so a
 #   predicted 40% means roughly 40%: usable for planning caseloads, not only for ranking.
-# - **Precision-recall.** Average precision 0.335 against a base rate of 0.186: real lift, but four in ten
+# - **Precision-recall.** Average precision 0.335 against a base rate of 0.186: real lift, but six in ten
 #   flagged students would not have left. Outreach has to be supportive, never punitive.
 
 # %% [markdown]
