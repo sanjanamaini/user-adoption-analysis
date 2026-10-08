@@ -2,6 +2,15 @@
 
 **Version 1 of this project reported ROC-AUC 0.895. An audit found that most of it came from reading the future, and that its two headline findings were artefacts. This is the rebuild: who will leave an online module, on which day we can know, and how many we can still reach.**
 
+**At a glance**
+
+| | |
+|---|---|
+| **Question** | Which students will withdraw from an online module, and how early can we know? |
+| **Data** | Open University Learning Analytics Dataset: 32,593 enrolments, 28,785 students |
+| **Result** | Most of the first version's 0.895 ROC-AUC came from leakage. Rebuilt on day-28 data, the top 10% flagged withdraw at 39.9% against 18.6% overall, tested on a later term |
+| **Stack** | Python, scikit-learn, statsmodels, lifelines |
+
 Data: the [Open University Learning Analytics Dataset](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset) (OULAD; Kuzilek, Hlosta and Zdrahal 2017, CC BY 4.0): 32,593 enrolments held by 28,785 students in 22 presentations of 7 modules, with 10,655,280 rows of daily clicks.
 
 **Notebook:** [`notebooks/early_warning.ipynb`](notebooks/early_warning.ipynb), step by step, every number printed by a cell.
