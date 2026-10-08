@@ -10,6 +10,7 @@
 | **Data** | Open University Learning Analytics Dataset: 32,593 enrolments, 28,785 students |
 | **Result** | Most of the first version's 0.895 ROC-AUC came from leakage. Rebuilt on day-28 data, the top 10% flagged withdraw at 39.9% against 18.6% overall, tested on a later term |
 | **Stack** | Python, scikit-learn, statsmodels, lifelines |
+| **Project page** | [sanjanamaini.github.io/withdrawal](https://sanjanamaini.github.io/withdrawal/?utm_source=github&utm_medium=readme&utm_campaign=withdrawal) |
 
 Data: the [Open University Learning Analytics Dataset](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset) (OULAD; Kuzilek, Hlosta and Zdrahal 2017, CC BY 4.0): 32,593 enrolments held by 28,785 students in 22 presentations of 7 modules, with 10,655,280 rows of daily clicks.
 
